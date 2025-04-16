@@ -1,6 +1,6 @@
 # Cryptography Algorithms Collection
 
-This repository contains 13 cryptography algorithms implemented in C++, explaining substitution and transposition cipher techniques. These algorithms provide a basic understanding of cryptography and help learners understand how ciphers work.
+This repository contains 13 cryptography algorithms implemented in C++, explaining substitution and transposition cipher techniques. These algorithms provide a basic understanding of cryptography and help learners understand how ciphers work. Also in addition to ciphers, a N-gram Generator has been added to understand what is a Ngram and how it is useful
 
 ---
 
