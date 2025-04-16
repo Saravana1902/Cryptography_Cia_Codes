@@ -4,10 +4,8 @@ This repository contains 13 cryptography algorithms implemented in C++, explaini
 
 ---
 
-**Substitution Ciphers**
+**Substitution Ciphers:**
 Substitution ciphers replace characters in the plaintext with other characters based on specific rules.
-
----
 
 **Monoalphabetic (Single Substitution)**
 In these ciphers, each letter of the plaintext is replaced with another letter consistently throughout the message.
@@ -17,7 +15,6 @@ In these ciphers, each letter of the plaintext is replaced with another letter c
 * **Affine Cipher:** Uses the formula (ax + b) mod 26.
 * **August Cipher:** A variation of the Caesar Cipher with a fixed shift of 1 (implementation included).
 
----
 
 **Polyalphabetic (Multiple Substitutions)**
 These ciphers use more than one substitution alphabet to encrypt the message.
