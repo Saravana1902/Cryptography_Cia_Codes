@@ -1,0 +1,312 @@
+Outputs 
+
+------------------------------------------------------------
+
+1.Ceasers Cipher:
+
+Caesar's Cipher: Alphabetic Message only!(Encryption)
+1. Encryption || 2. Decryption 
+For Choice, enter 1,2 : 1
+Enter message: CAESARSCIPHERCODE
+Enter key value (0-25): 7
+Original Message is: CAESARSCIPHERCODE
+Encrypted Message is : JHLZHYZJPWOLYJVKL
+
+Caesar's Cipher: Alphabetic Message only!(Decryption)
+1. Encryption || 2. Decryption 
+For Choice, enter 1,2 : 2
+Enter encrypted text: JHLZHYZJPWOLYJVKL
+Enter key (0-25): 7
+Original Message is: JHLZHYZJPWOLYJVKL
+Decrypted Message: CAESARSCIPHERCODE
+
+------------------------------------------------------------
+
+2.Atbash Cipher:
+
+Atbash cipher (Encryption)
+1. Encryption
+2. Decryption
+Choose(1,2): 1
+Encryption
+Enter Message: ATBASHCIPHERCODE
+
+Encrypted Text: ZGYZHSXRKSVIXLWV
+
+Atbash cipher (Decryption)
+1. Encryption
+2. Decryption
+Choose(1,2): 2
+Decryption
+Enter Encrypted Message: ZGYZHSXRKSVIXLWV
+
+Decrypted Text: ATBASHCIPHERCODE
+
+
+------------------------------------------------------------
+
+
+3.August Cipher:
+
+August Cipher: (Encryption)
+1. Encryption || 2. Decryption 
+For Choice, enter 1,2 : 1
+Enter message: AUGUSTCIPHERCODE
+Original Message is: AUGUSTCIPHERCODE
+Encrypted Message is : BVHVTUDJQIFSDPEF
+
+August Cipher: (Decryption)
+1. Encryption || 2. Decryption 
+For Choice, enter 1,2 : 2
+Enter encrypted text: BVHVTUDJQIFSDPEF
+Original Message is: BVHVTUDJQIFSDPEF
+Decrypted Message: AUGUSTCIPHERCODE
+
+
+------------------------------------------------------------
+
+
+4.Affine Cipher:
+
+Affine Cipher(Encryption)
+Enter Plain/Cipher Text : FFINECIPHERCRYPTOCODE 
+Enter the key 1: 5
+Enter the key 2: 8
+Enter 1 for Encryption, 2 for Decryption.
+1
+Cipher text is:  HHWVCSWFRCPSPYFZASAXC
+
+Affine Cipher(Decryption)
+Enter Plain/Cipher Text : HHWVCSWFRCPSPYFZASAXC
+Enter the key 1: 5
+Enter the key 2: 8
+Enter 1 for Encryption, 2 for Decryption.
+2
+Enter Cipher Text to be decrypted: HHWVCSWFRCPSPYFZASAXC
+Plain text was:  AFFINECIPHERCRYPTOCODE
+
+
+------------------------------------------------------------
+
+
+5.Vegnerene Cipher:
+
+Vignere Cipher(Encryption)
+Message and key can only be alphabetic
+1. Encryption
+2. Decryption
+Choose(1,2): 1
+Encryption
+Enter message: VIGNERECRPYTOCODE
+
+Enter key: KEYS
+
+Encrypted Text: FMEFOVCUBTWLYGMVO
+
+Vignere Cipher(Decryption)
+Message and key can only be alphabetic
+1. Encryption
+2. Decryption
+Choose(1,2): 2
+Decryption
+Enter message: FMEFOVCUBTWLYGMVO
+
+Enter key: KEYS
+
+Decrypted Text: VIGNERECRPYTOCODE
+
+
+------------------------------------------------------------
+
+
+6.Gronsfeld Cipher:
+
+Gronsfeld Cipher(Encryption)
+Message can only be alphabetic and key can only be numeric
+1. Encryption
+2. Decryption
+Choose(1,2): 1
+Encryption
+Enter message: GRONSFELDCIPHERCODE
+Enter key (numbers only): 12345
+Encrypted Text: HTRRXGGOHHJRKIWDQGI
+
+Gronsfeld Cipher(Decryption)
+Message can only be alphabetic and key can only be numeric
+1. Encryption
+2. Decryption
+Choose(1,2): 2
+Decryption
+Enter message: HTRRXGGOHHJRKIWDQGI
+Enter key (numbers only): 12345
+Decrypted Text: GRONSFELDCIPHERCODE
+
+
+------------------------------------------------------------
+
+
+7.Beaufort Cipher:
+
+Beaufort Cipher(Encryption)
+Message and key can only be alphabetic
+1. Encryption
+2. Decryption
+Choose(1,2): 1
+Encryption
+Enter message: BEAUFORTCIPHER
+
+Enter key: KEYS
+
+Encrypted Text: JAYYFQHZIWJLGN
+
+
+Beaufort Cipher(Decryption)
+Message and key can only be alphabetic
+1. Encryption
+2. Decryption
+Choose(1,2): 2
+Decryption
+Enter message: JAYYFQHZIWJLGN
+
+Enter key: KEYS
+
+Decrypted Text: BEAUFORTCIPHER
+
+
+------------------------------------------------------------
+
+
+8.AutoClave/Running Key Cipher:
+
+Autokey Cipher(Encryption)
+Message and key can only be alphabetic
+1. Encryption
+2. Decryption
+Choose(1,2): 1
+Encryption
+Enter message: AUTOCLAVE
+
+Enter key: KEY
+
+Message: AUTOCLAVE
+Mapped Key: KEYAUTOCL
+Encrypted Text: KYROWEOXP
+
+Autokey Cipher(Decryption)
+Message and key can only be alphabetic
+1. Encryption
+2. Decryption
+Choose(1,2): 2
+Decryption
+Enter encrypted message: KYROWEOXP
+
+Enter original key: KEY
+
+Decrypted Text: AUTOCLAVE
+
+
+------------------------------------------------------------
+
+
+9.N-gram Operation: 
+
+Enter the text:
+If you can look into the seeds of time and say which grain will grow and which will not
+
+Enter the size of the N-gram (e.g., 1 for unigrams, 2 for bigrams, etc.):
+2
+
+Generating N-grams...
+
+Generated N-grams:
+If you
+you can
+can look
+look into
+into the
+the seeds
+seeds of
+of time
+time and
+and say
+say which
+which grain
+grain will
+will grow
+grow and
+and which
+which will
+will not
+
+
+------------------------------------------------------------
+
+
+10.Hill Cipher:
+
+Hill Cipher:(Encryption)
+1. Encryption
+2. Decryption
+Choose(1,2): 1
+
+---Encryption---
+Enter message: CRYPTOGRAPHYCONCEPTS
+Enter 4 letter key string: HILL
+
+Encrypted text: UBCNLZWTQJHDWUDJSBRR
+
+Hill Cipher:(Decryption)
+1. Encryption
+2. Decryption
+Choose(1,2): 2
+
+---Decryption---
+Enter message: UBCNLZWTQJHDWUDJSBRR
+Enter 4 letter key string: HILL
+
+
+Decrypted text: CRYPTOGRAPHYCONCEPTS
+
+
+------------------------------------------------------------
+
+
+11.Railfence Cipher:
+
+Rail Fence Cipher
+Enter the text: ALLTHEWORLDSASTAGE
+Enter the key value: 3
+Encrypted text: AHRAGLTEOLSSAELWDT
+Decrypted text: ALLTHEWORLDSASTAGE
+
+
+------------------------------------------------------------
+
+
+12.Route Cipher:
+
+Route Cipher
+Enter text to encrypt: ROSES ARE GREEN AND LEAVES ARE RED
+Enter column key (integer): 7
+
+Encoded message: RENSOGDASRLREEEESEARANVERAED
+Decoded message: ROSESAREGREENANDLEAVESARERED
+
+
+------------------------------------------------------------
+
+
+13.Myszkowiski Cipher:
+
+Myszkowski Cipher
+Enter encryption key: FATHERLAND
+Enter text to encrypt: CRYPTOGRAPHYCONCEPTS
+
+Encrypted message: RYRPPSTNCHPOGEATOCYC
+Decrypted message: CRYPTOGRAPHYCONCEPTS
+
+
+------------------------------------------------------------
+
+
+
