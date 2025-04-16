@@ -1,63 +1,44 @@
-# Cryptography_Cia_Codes
-This repository holds 13 cryptography algorithms implemented in C++, explaining substitution and transposition cipher techniques. These algorithms provide a basic understanding for cryptography and helps the learner to understand how ciphers work
+# Cryptography Algorithms Collection
 
-#Cryptographic Algorithms Implemented
-✨ Substitution Ciphers
+This repository contains 13 cryptography algorithms implemented in C++, explaining substitution and transposition cipher techniques. These algorithms provide a basic understanding of cryptography and help learners understand how ciphers work.
+
+✨ **Substitution Ciphers**
 Substitution ciphers replace characters in the plaintext with other characters based on specific rules.
 
-✅ Monoalphabetic (Single Substitution)
-Atbash Cipher: Reverses the alphabet (e.g., A ⇔ Z, B ⇔ Y).
+✅ **Monoalphabetic (Single Substitution)**
+In these ciphers, each letter of the plaintext is replaced with another letter consistently throughout the message.
 
-Caesar Cipher: Shifts letters by a fixed key.
+* **Atbash Cipher:** Reverses the alphabet (e.g., A ⇔ Z, B ⇔ Y).
+* **Caesar Cipher:** Shifts letters by a fixed key.
+* **Affine Cipher:** Uses the formula (ax + b) mod 26.
+* **August Cipher:** A variation of the Caesar Cipher with a fixed shift of 1 (implementation included).
 
-Affine Cipher: Uses the formula (ax + b) mod 26.
+✅ **Polyalphabetic (Multiple Substitutions)**
+These ciphers use more than one substitution alphabet to encrypt the message.
 
-August Cipher: Caesar variant with a fixed shift of 1.
+* **Vigenère Cipher:** Uses a repeated keyword to shift letters based on the Vigenère square.
+* **Gronsfeld Cipher:** A numeric version of the Vigenère cipher using digits (0-9) as the key.
+* **Beaufort Cipher:** Similar to the Vigenère cipher but uses reversed logic for encryption.
+* **Autoclave / Running Key Cipher:** The key is extended using the plaintext itself or an external text source (e.g., a book).
 
-✅ Polyalphabetic (Multiple Substitutions)
-Vigenère Cipher: Uses a repeated keyword for shifting.
+🔤 **Polygraphic**
 
-Gronsfeld Cipher: A numeric version of the Vigenère cipher using digits (0-9).
+* **Hill Cipher:** Employs matrix multiplication and modular arithmetic on blocks of letters.
 
-Beaufort Cipher: Similar to Vigenère, but uses reversed logic.
+🛋️ **Transposition Ciphers**
+These ciphers rearrange the characters of the plaintext without changing the letters themselves.
 
-Autoclave / Running Key Cipher: The key is extended using the plaintext or external text (e.g., a book).
+* **Rail Fence Cipher:** Writes the plaintext in a zigzag pattern across a specified number of rails and then reads it off row by row.
+* **Route Cipher:** The plaintext is written into a grid, and the ciphertext is obtained by reading the letters in a specific path (e.g., spiral, diagonal).
+* **Myszkowski Cipher:** A columnar transposition cipher that uses a keyword with repeating letters; the columns are ordered based on the alphabetical order of the keyword's letters, with repeated letters handled uniquely.
 
-🔤 Polygraphic
+🔎 **N-Gram Operations**
+* **NGramOperations.cpp:** This file provides functionality to generate unigrams, bigrams, and trigrams from text data. These are useful for various natural language processing tasks such as text analysis, language prediction, and preprocessing.
 
-Hill Cipher: Uses matrix multiplication and modular arithmetic on blocks of letters.
+## How to Use
 
-🛋️ Transposition Ciphers
-These ciphers rearrange the characters without altering the actual letters.
+**1. Clone or download the repository:**
 
-Rail Fence Cipher: Writes text in a zigzag pattern across multiple rails.
-
-Route Cipher: Text is written in a grid and read in a specific path (e.g., spiral).
-
-Myszkowski Cipher: A columnar transposition cipher using repeated-key characters.
-
-🔎 N-Gram Operations
-NGramOperations.cpp: Generates unigrams, bigrams, and trigrams for text analysis, prediction, and preprocessing in natural language tasks.
-
-How to Use
-Clone or download the repository:
-bash
-Copy
-Edit
-git clone https://github.com/Saravana1902/Cryptography_Cia_Codes.git
+```bash
+git clone [https://github.com/Saravana1902/Cryptography_Cia_Codes.git](https://github.com/Saravana1902/Cryptography_Cia_Codes.git)
 cd Cryptography_Cia_Codes
-Compile and run:
-You can use any C++ IDE or a terminal/command-line interface.
-
-Navigate to the src/cryptography folder.
-
-Compile any of the .cpp files to test the cryptographic algorithms.
-
-For example, to run Caesar Cipher:
-
-bash
-Copy
-Edit
-g++ CaesarCipher.cpp -o CaesarCipher
-./CaesarCipher
-Each .cpp file contains the implementation of a different cryptographic algorithm. Follow the same steps for other algorithms as well.
