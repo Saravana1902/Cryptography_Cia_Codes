@@ -1,7 +1,7 @@
 # Cryptography_Cia_Codes
 This repository holds 13 cryptography algorithms implemented in C++, explaining substitution and transposition cipher techniques. These algorithms provide a basic understanding for cryptography and helps the learner to understand how ciphers work
 
-Cryptographic Algorithms Implemented
+#Cryptographic Algorithms Implemented
 ✨ Substitution Ciphers
 Substitution ciphers replace characters in the plaintext with other characters based on specific rules.
 
