@@ -58,10 +58,10 @@ git clone [https://github.com/Saravana1902/Cryptography_Cia_Codes.git](https://g
 cd Cryptography_Cia_Codes
 ```
 
-Compile and run:
+**2.Compile and run:**
 You can use any C++ IDE or a terminal/command-line interface to compile and execute the code.
 
-Navigate to the src/cryptography folder.
+**3.Navigate to the src/cryptography folder:**
 Compile any of the .cpp files to test the cryptographic algorithms.
 For example, to run the Caesar Cipher:
 
@@ -69,10 +69,11 @@ For example, to run the Caesar Cipher:
 g++ src/cryptography/CaesarCipher.cpp -o CaesarCipher
 ./CaesarCipher
 ```
+---
 
 A work by
 Saravanakrishnan B
-
+IoT B
 22011102092
 
 
